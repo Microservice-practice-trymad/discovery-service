@@ -11,8 +11,8 @@
 	</parent>
 
 	<groupId>com.trymad</groupId>
-	<artifactId>discovery-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>study-discovery-service</artifactId>
+	<version>0.0.2</version>
 	<name>discovery-service</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -38,6 +38,11 @@
 			<groupId>me.paulschwarz</groupId>
 			<artifactId>spring-dotenv</artifactId>
 			<version>${dotenv.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 	</dependencies>
 
